@@ -9,7 +9,7 @@ interface TodoProps {
 
 const Todo = ({ todo, handleCheckTodo, handleDeleteTodo }: TodoProps) => {
   const { id, title, completed } = todo;
-
+  
   return (
     <div>
       <input
